@@ -1326,7 +1326,7 @@ button {
     font-size: 19px;
 	}
 	.plan {
-    width: 86%;
+    width: 87%;
 	}
 	.owl-carousel .owl-item.center .comment {
     height: 310px;
@@ -1362,10 +1362,7 @@ button {
 		padding-top: 160px;
 	}
 	.header {
-    height: 100vh;
-	}
-	.header-content {
-    margin-top: 100px;
+    height: 620px;
 	}
 	.header-content__title {
     width: 204px;
@@ -1381,6 +1378,9 @@ button {
 @media screen and (max-width: 425px) {
 	.container {
     padding: 0px 30px;
+	}
+	.plan {
+    width: 89%;
 	}
 	.pricing-heading {
     width: 303px;
