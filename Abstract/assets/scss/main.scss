@@ -1316,6 +1316,18 @@ button {
 }
 
 @media screen and (max-width: 440px) {
+	.reviews-heading__title {
+    font-size: 34px;
+	}
+	.pricing-heading__title {
+    font-size: 37px;
+	}
+	.pricing-heading__text {
+    font-size: 19px;
+	}
+	.plan {
+    width: 87%;
+	}
 	.owl-carousel .owl-item.center .comment {
     height: 310px;
 	}
@@ -1390,18 +1402,6 @@ button {
 @media screen and (max-width: 400px) {
 	.container {
     padding: 0px 25px;
-	}
-	.reviews-heading__title {
-    font-size: 34px;
-	}
-	.pricing-heading__title {
-    font-size: 37px;
-	}
-	.pricing-heading__text {
-    font-size: 19px;
-	}
-	.plan {
-    width: 87%;
 	}
 }
 
