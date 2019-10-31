@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description"
+		content="KNOP KNOP is a soft, flexible construction set made of felt material and connected with snap buttons.">
+	<title>Soft Felt Building Kit KNOP KNOP</title>
+	<link rel="icon" href="#" type="image/x-icon">
+	<link rel="shortcut icon" href="#" type="image/x-icon">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+	<!-- Swiper -->
+	<link rel="stylesheet" href="../assets/libs/swiper/swiper.min.css">
+	<!-- Main Css -->
+	<link rel="stylesheet" href="../assets/css/main.min.css">
+</head>
+
+<body>
+	<!-- Header -->
+	<header class="header">
+		<div class="container">
+			<ul class="header__row">
+				<li class="socials-row">
+					<a href="#">
+						<i class="fab fa-youtube"></i>
+					</a>
+					<a href="#">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a href="#">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</li>
+				<li class="lang-row">
+					<button class="lang" id="lang">
+						En <i class="fas fa-angle-down" id="lang-icon"></i>
+					</button>
+					<ul class="lang-select" id="lang-select">
+						<li>
+							<a href="#" class="russian" id="russian">Ru</a>
+						</li>
+					</ul>
+				</li>
+				<li class="currency-row">
+					<button class="currency" id="currency">
+						$ <i class="fas fa-angle-down" id="currency-icon"></i>
+					</button>
+					<ul class="currency-select" id="currency-select">
+						<li>
+							<a href="#" class="rub" id="rub">₽</a>
+						</li>
+					</ul>
+				</li>
+				<li class="location">
+					You're in <div class="location__img"><img src="../assets/img/english.png" alt="English Language"></div>
+					<button class="location__btn">Change</button>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<!-- End Header -->
+	<!-- Primary -->
+	<section class="primary">
+		<div class="container">
+			<div class="primary__row">
+				<div class="hamburger" id="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="logo-content">
+					<a class="logo" href="../index.html">
+						<img src="../assets/img/logo-01.svg" alt="KNOP KNOP">
+					</a>
+					<div class="logo-content__arrow">
+						<img src="../assets/img/logo-arrow.svg" alt="Logo Arrow">
+					</div>
+					<p class="logo-content__desc">
+						Soft Felt<br>Building Kit
+					</p>
+				</div>
+				<nav class="primary__menu">
+					<ul>
+						<li>
+							<button class="primary__menu_shop">
+								<div class="primary__menu__icon">
+									<img src="../assets/img/menu-01.svg" alt="Shop">
+								</div>
+								Shop <i class="fas fa-angle-down"></i>
+							</button>
+						</li>
+						<li>
+							<a href="gallery.html">
+								<div class="primary__menu__icon">
+									<img src="../assets/img/menu-02.svg" alt="Gallery">
+								</div>
+								Gallery
+							</a>
+						</li>
+						<li>
+							<a href="news.html">
+								<div class="primary__menu__icon">
+									<img src="../assets/img/menu-03.svg" alt="News">
+								</div>
+								News
+							</a>
+						</li>
+						<li>
+							<a href="about.html">
+								<div class="primary__menu__icon">
+									<img src="../assets/img/menu-04.svg" alt="About">
+								</div>
+								About Us
+							</a>
+						</li>
+						<li>
+							<a href="contact.html">
+								<div class="primary__menu__icon">
+									<img src="../assets/img/menu-05.svg" alt="Contacts">
+								</div>
+								Contacts
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="primary__item">
+					<a class="primary__item__btn" href="#">
+						<i class="fas fa-search"></i>
+					</a>
+					<a class="primary__item__btn primary__item__user" href="#">
+						<i class="fas fa-user"></i>
+					</a>
+					<a class="primary__item__btn shopping-cart" href="#">
+						<i class="fas fa-shopping-cart"></i>
+						<span class="shopping-num" id="shopping-num">0</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Primary -->
+	<!-- Story -->
+	<section class="story">
+		<div class="hamburger-box" id="hamburger-box">
+			<div class="hamburger-content">
+				<div class="hamburger-shadow"></div>
+				<ul class="hamburger-account">
+					<li>
+						<span class="hamburger-account__icon">
+							<i class="fas fa-user"></i>
+						</span>
+					</li>
+					<li>
+						<a href="#">
+							Log in
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Join
+						</a>
+					</li>
+				</ul>
+				<ul class="hamburger-menu">
+					<li>
+						<button class="hamburger-menu_shop" id="hamburger-shop">
+							<div class="hamburger-menu__icon hamburger-shop-icon">
+								<img src="../assets/img/menu-1.svg" alt="Shop">
+							</div>
+							Shop <i class="hamburger-menu_angle fas fa-angle-down" id="hamburger-angle"></i>
+						</button>
+						<ul class="hamburger-menu_dropdown" id="hamburger-dropdown">
+							<li>
+								<a href="categorie.html#animals-categorie">
+									Animals
+								</a>
+							</li>
+							<li>
+								<a href="categorie.html#transport-categorie">
+									Transport
+								</a>
+							</li>
+							<li>
+								<a href="categorie.html#gadgets-categorie">
+									Gadgets
+								</a>
+							</li>
+							<li>
+								<a href="categorie.html#soon-categorie">
+									Coming soon
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="gallery.html">
+							<div class="hamburger-menu__icon hamburger-gallery-icon">
+								<img src="../assets/img/menu-2.svg" alt="Gallery">
+							</div>
+							Gallery
+						</a>
+					</li>
+					<li>
+						<a href="news.html">
+							<div class="hamburger-menu__icon hamburger-news-icon">
+								<img src="../assets/img/menu-3.svg" alt="News">
+							</div>
+							News
+						</a>
+					</li>
+					<li>
+						<a href="about.html">
+							<div class="hamburger-menu__icon hamburger-about-icon">
+								<img src="../assets/img/menu-4.svg" alt="About">
+							</div>
+							About Us
+						</a>
+					</li>
+					<li>
+						<a class="hamburger-contacts-row" href="contact.html">
+							<div class="hamburger-menu__icon hamburger-contacts-icon">
+								<img src="../assets/img/menu-5.svg" alt="Contacts">
+							</div>
+							Contacts
+						</a>
+					</li>
+				</ul>
+				<ul class="hamburger-select">
+					<li class="hamburger-lang-row">
+						<button class="hamburger-lang" id="hamburger-lang">
+							En <i class="fas fa-angle-down" id="hamburger-lang-icon"></i>
+						</button>
+					</li>
+					<li class="hamburger-currency-row">
+						<button class="hamburger-currency" id="hamburger-currency">
+							$ <i class="fas fa-angle-down" id="hamburger-currency-icon"></i>
+						</button>
+					</li>
+					<li class="hamburger-location">
+						<span>You're in</span> <button class="hamburger-location__img"></button>
+					</li>
+				</ul>
+				<ul class="hamburger-socials">
+					<li>
+						<a href="#">
+							<i class="fab fa-youtube"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="story__head">
+			<div class="container">
+				<h2 class="story__head__title">
+					About Us
+				</h2>
+				<div class="story__head__item">
+					<div class="story__head__content">
+						<h3 class="story__head__subtitle story__title">
+							Concept
+						</h3>
+						<p class="story__head__desc story__text">
+							В конструкторе KNOPKNOP мы хотели совместить возможности строительных кубиков и мягкость плюшевых игрушек.
+							Мы любим строить, моделировать, искать новые инструменты и возможности для создания объёных форм и
+							моделей. Работая с пластилином или с глиной ты понимаешь насколько много свободы в создании органичных
+							и пластичных форм. Тоже самое нельзя сказать о большинстве детских конструкторов, они Угловатые и
+							жёсткие. Мы не смогли найти конструктор который даст взрослым и детям свободу в создании мягких и
+							органичных форм. Поэтому Мы решили его придумать!
+						</p>
+					</div>
+					<div class="story__buildings">
+						<div class="story__buildings__item">
+							<div class="story__building_first">
+								<img src="../assets/img/building-01.svg" alt="Building">
+							</div>
+							<span>+</span>
+							<div class="story__building_second">
+								<img src="../assets/img/building-02.svg" alt="Building">
+							</div>
+							<span>=</span>
+							<div class="story__building_third">
+								<img src="../assets/img/building-03.svg" alt="Building">
+							</div>
+						</div>
+						<p class="story__buildings__desc">
+							The Only Building Kit You Can Hug
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="story__container">
+			<div class="story__item">
+				<div class="story__photo">
+					<img src="../assets/img/story-01.png" alt="Story">
+				</div>
+				<div class="story__content">
+					<h2 class="story__title">
+						Materials & Colors
+					</h2>
+					<p class="story__desc story__text">
+						Особое внимание мы уделили подбору гармоничных цветов и материалов которые смогут дать нужные
+						характеристики конструктору.
+					</p>
+				</div>
+			</div>
+			<div class="story__item">
+				<div class="story__content">
+					<h2 class="story__title">
+						Proportions & Sizes
+					</h2>
+					<p class="story__desc story__text">
+						Мы долго работали над поиском оптимальных пропорций и системы размеров деталей.
+					</p>
+				</div>
+				<div class="story__photo">
+					<img src="../assets/img/story-02.png" alt="Story">
+				</div>
+			</div>
+			<div class="story__item">
+				<div class="story__photo">
+					<img src="../assets/img/story-03.png" alt="Story">
+				</div>
+				<div class="story__content">
+					<h2 class="story__title">
+						Possibilities
+					</h2>
+					<p class="story__desc story__text">
+						Мы долго работали над поиском оптимальных пропорций и системы размеров деталей.
+					</p>
+				</div>
+			</div>
+			<div class="story__item">
+				<div class="story__content">
+					<h2 class="story__title">
+						Exhibitions
+					</h2>
+					<div class="story__exhibit-photo">
+						<img src="../assets/img/salone.png" alt="SaloneSatellite">
+					</div>
+					<p class="story__desc story__text">
+						Первый раз широкой публике мы представили наш конструктор на международном конкурсе / выставке -
+						SaloneSatellite Moscow 2015 , где проект был удостоен 1-ого места.
+					</p>
+					<p class="story__exhibit story__text">
+						В 2016 году во время недели дизайна в Милане KNOPKNOP был представлен на выставке SaloneSatellite Milano
+						2016 где также получил огромное кол-во положительных отзывов от посетителей и прессы.
+					</p>
+				</div>
+				<div class="story__photo">
+					<img src="../assets/img/story-04.png" alt="Story">
+				</div>
+			</div>
+			<div class="story__item">
+				<div class="story__photo">
+					<img src="../assets/img/story-05.png" alt="Story">
+				</div>
+				<div class="story__content">
+					<h2 class="story__title">
+						Poblications
+					</h2>
+					<p class="story__desc story__text">
+						Наш конструктор стал одной из 500 работ, которые были выбраны для юбилейного издания выставки
+						SaloneSatellite “ Salone Satellite - 20 Years Of New Creativity”.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Story -->
+	<!-- Subscribe -->
+	<section class="subscribe">
+		<div class="container">
+			<div class="subscribe__row">
+				<div class="subscribe__content">
+					<h3 class="subscribe__content__title">
+						Subscribe To Newsletters
+					</h3>
+					<p class="subscribe__content__text">
+						And recieve 10% discount. Be first to know about our new exciting models and promotions.
+					</p>
+				</div>
+				<form class="subscribe__form">
+					<input type="text" class="subscribe__email" placeholder="email">
+					<button class="subscribe__btn" type="submit"></button>
+			</div>
+			</form>
+		</div>
+	</section>
+	<!-- End Subscribe -->
+	<!-- Link -->
+	<section class="link">
+		<div class="container">
+			<div class="link__row">
+				<div class="link__item">
+					<h3 class="link__subtitle">
+						My Account
+					</h3>
+					<ul class="link__page">
+						<li>
+							<a href="#">
+								Log In
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Create an account
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="link__item">
+					<h3 class="link__subtitle">
+						KNOP KNOP
+					</h3>
+					<ul class="link__page">
+						<li>
+							<a href="#">
+								About Us
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								For Partners
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="link__item">
+					<h3 class="link__subtitle">
+						Online Shop
+					</h3>
+					<ul class="link__page">
+						<li>
+							<a href="#">
+								How to make an order
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Shipping and payment
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Exchange and refund
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Terms of Use
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Confidentiality
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Contact Us
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Site Map
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="link__item link__box">
+					<div class="link__box__item">
+						<h3 class="link__subtitle">
+							Shopping from
+						</h3>
+						<ul class="link__page">
+							<li class="location">
+								<span>You're in</span>
+								<div class="location__img"><img src="../assets/img/english.png" alt="English Language"></div> <button
+									class="location__btn">Change</button>
+							</li>
+						</ul>
+					</div>
+					<div class="link__box__item">
+						<h3 class="link__subtitle">
+							Contacts
+						</h3>
+						<ul class="link__contact">
+							<li class="link__tel">
+								<a href="tel:+371 29 35 44 11">
+									+371 29 35 44 11
+								</a>
+							</li>
+							<li class="link__socials">
+								<a href="#">
+									<i class="fab fa-youtube"></i>
+								</a>
+								<a href="#">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<a href="#">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="link__item">
+					<h3 class="link__subtitle">
+						Payments
+					</h3>
+					<ul class="link__payments">
+						<li>
+							<img src="../assets/img/visa.svg" alt="Payment">
+						</li>
+						<li>
+							<img src="../assets/img/mastercard.svg" alt="Payment">
+						</li>
+						<li>
+							<img src="../assets/img/paypal.svg" alt="Payment">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Link -->
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<p class="footer__copyright">
+				© 2019 KNOP KNOP
+			</p>
+		</div>
+	</footer>
+	<!-- End Footer -->
+	<!-- jQuery -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<!-- Swiper -->
+	<script src="../assets/libs/swiper/swiper.min.js"></script>
+	<!-- Main Javascript -->
+	<script src="../assets/js/main.min.js"></script>
+</body>
+
+</html>
