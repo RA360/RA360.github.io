@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="320" name="MobileOptimized" />
+  <meta content="width=1219" name="viewport" />
+  <title>Your Shopping Cart — Global Shop</title>
+  <link rel="icon" href="../assets/img/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  <link rel="stylesheet" href="../assets/css/main.min.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__nav">
+      <div class="header__nav-left">
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <p class="hamburger-txt">
+          Menu
+        </p>
+      </div>
+      <a href="../index.html" class="title" id="title">
+        Global Shop
+      </a>
+      <div class="header__btns">
+        <button class="search-btn" id="searchBtn"></button>
+        <a href="../pages/cart.html" class="basket">
+          <span class="basket__count" id="basketCount">0</span>
+        </a>
+        <a href="../index.html" class="lang">
+          En
+        </a>
+      </div>
+    </div>
+    <div class="search">
+      <input class="search__input" id="searchI" autocomplete="off" placeholder="Beats EP" />
+      <div class="suggests" id="suggests"></div>
+    </div>
+    <div class="dropdown" id="dropdown">
+      <a href="../pages/404.html" class="dropdown__item">News</a>
+      <a href="../pages/404.html" class="dropdown__item">Catalog</a>
+      <a href="../pages/contacts.html" class="dropdown__item">Contacts</a>
+      <a href="../pages/404.html" class="dropdown__item">About Us</a>
+      <a href="../pages/404.html" class="dropdown__item">Delivery</a>
+      <a href="../pages/404.html" class="dropdown__item">FAQ</a>
+    </div>
+  </header>
+  <!-- End header -->
+  <!-- Cart -->
+  <section class="cart" id="cart"></section>
+  <!-- End cart -->
+  <div class="order-overlay" id="orderOverlay"></div>
+  <script src="../assets/js/cart.min.js"></script>
+  <script src="../assets/js/main.min.js"></script>
+</body>
+
+</html>
