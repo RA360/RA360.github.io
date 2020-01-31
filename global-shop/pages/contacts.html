@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="320" name="MobileOptimized" />
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1" />
+  <meta content="width=1219" name="viewport" />
+  <meta name="description" content="Get the most out of your music with an award-winning, emotionally
+    charged Beats listening experience." />
+  <title>Contacts | Global Shop</title>
+  <link rel="icon" href="../assets/img/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <script src="https://api-maps.yandex.ru/2.1/?lang=en_US"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__nav">
+      <div class="header__nav-left">
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <p class="hamburger-txt">
+          Menu
+        </p>
+      </div>
+      <a href="../index.html" class="title" id="title">
+        Global Shop
+      </a>
+      <div class="header__btns">
+        <button class="search-btn" id="searchBtn"></button>
+        <a href="../pages/cart.html" class="basket">
+          <span class="basket__count" id="basketCount">0</span>
+        </a>
+        <a href="../index.html" class="lang">
+          En
+        </a>
+      </div>
+    </div>
+    <div class="search">
+      <input class="search__input" id="searchI" autocomplete="off" placeholder="Beats EP" />
+      <div class="suggests" id="suggests"></div>
+    </div>
+    <div class="dropdown" id="dropdown">
+      <a href="../pages/404.html" class="dropdown__item">News</a>
+      <a href="../pages/404.html" class="dropdown__item">Catalog</a>
+      <a href="../pages/contacts.html" class="dropdown__item">Contacts</a>
+      <a href="../pages/404.html" class="dropdown__item">About Us</a>
+      <a href="../pages/404.html" class="dropdown__item">Delivery</a>
+      <a href="../pages/404.html" class="dropdown__item">FAQ</a>
+    </div>
+  </header>
+  <!-- End header -->
+  <!-- Contact -->
+  <section class="contact">
+    <div class="contact__box">
+      <!-- Yandex Map -->
+      <div id="map" class="map"></div>
+      <!-- End Yandex Map -->
+      <div class="map-btns" id="mapBtns">
+      </div>
+    </div>
+    <div>
+      <h2 class="contact__offer offer">
+        Contact US
+      </h2>
+      <h3 class="contact__subtitle">
+        Visit US
+      </h3>
+      <a href="https://yandex.com/maps/202/new-york/?from=api-maps&ll=-74.002191%2C40.711317&mode=usermaps&origin=jsapi_2_1_75&um=constructor%3A053ac146a13f9b06135dce78314c8de17b1091c123b2629090bc3eeb43ababa3&z=16.2"
+        class="contact__txt" target="_blank">
+        2127 West 6th Street<br>Brooklyn, New York<br>USA
+      </a>
+      <h3 class="contact__subtitle">
+        Email
+      </h3>
+      <a href="mailto:glbalshop@gmail.com" class="contact__txt" target="_blank">
+        glbalshop@gmail.com
+      </a>
+      <h3 class="contact__subtitle">
+        Phone
+      </h3>
+      <a href="tel:+1319978978" class="contact__txt" target="_blank">
+        +1319978978
+      </a>
+      <form class="contact__form" action="#">
+        <input type="email" name='email' class="contact__form-elem" placeholder="Enter Email" required>
+        <input type="tel" name="tel" class="contact__form-elem" placeholder="Phone" required>
+        <textarea name="txt" class="contact__form-elem" placeholder="Message" required></textarea>
+        <button type="submit" class="contact__submit submit btn">
+          Contact US <i class="fas fa-chevron-right"></i>
+        </button>
+      </form>
+    </div>
+  </section>
+  <!-- End contact -->
+  <script src="../assets/js/contact.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
